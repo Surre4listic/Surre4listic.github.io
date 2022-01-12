@@ -1,16 +1,15 @@
-
+/*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(https://github.com/Surre4listic/controller/blob/main/base.png);
+    background: url(base.png);
     height: 598px;
     width: 806px;
     /*    margin-left: -403px;
         margin-top: -280px;*/
 }
 
-
 .ds4 .stick {
     position: absolute;
-    background: url(https://github.com/Surre4listic/controller/blob/main/sticks.png);
+    background: url(sticks.png);
     height: 94px;
     width: 94px;
 }

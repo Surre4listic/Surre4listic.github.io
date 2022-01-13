@@ -10,17 +10,18 @@
     background-image: url(bumper.png);
 }
 
-
 .ds4.white .stick {
     background-image: url(sticks.png);
 }
-
 
 .ds4.white .face {
     background-image: url(dpad.png);
 }
 
-
 .ds4.white .back, .ds4 .start {
-    background-image: url(ps4-white-assets/start.svgz);
+    background-image: url(start.png);
+}
+
+.ds4.white .button {
+    background-image: url(face.png);
 }

@@ -1,46 +1,16 @@
+.controller.ds4.white {
+    background-image: url(base.png);
+}
 
-/*BEGIN PS4 Controller Styling*/
-.controller.ds4 {
-    background: url(base.png);
-    height: 598px;
-    width: 806px;
-    /*    margin-left: -403px;
-        margin-top: -280px;*/
+.ds4.white .trigger {
+    background-image: url(triggers.png);
+}
+
+.ds4.white .bumper {
+    background-image: url(bumper.png);
 }
 
 
-.ds4 .sticks {
-    position: absolute;
-    width: 361px;
-    height: 105px;
-    top: 308px;
-    left: 228px;
+.ds4.white .stick {
+    background-image: url(sticks.png);
 }
-
-.ds4 .stick {
-    position: absolute;
-    background: url(sticks.png);
-    height: 94px;
-    width: 94px;
-}
-
-.ds4 .stick.pressed.left {
-    background-position-x: -96px;
-}
-
-.ds4 .stick.pressed.right {
-    background-position-x: -192px;
-}
-
-.ds4 .stick.left {
-    top: 0;
-    left: 0;
-}
-
-.ds4 .stick.right {
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
-}
-
-
-/*END PS4 Controller Styling*/
